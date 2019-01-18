@@ -23,7 +23,7 @@ with tf.Session(config=config) as sess:
             'model': 'cfg/yolov2-tiny-voc.cfg',
             'load': 'bin/yolov2-tiny-voc.weights',
             'threshold': 0.2,
-            'gpu': 7.0
+            'gpu': 1.0
                     }
     tfnet = TFNet(options)
 
